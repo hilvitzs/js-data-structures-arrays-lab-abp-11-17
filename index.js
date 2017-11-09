@@ -24,3 +24,7 @@ function appendDriver(name) {
 function prependDriver(name) {
   return members = ["Arnold", ...drivers.slice()]
 }
+
+function removeLastDriver() {
+  return members = drivers.pop();
+}
